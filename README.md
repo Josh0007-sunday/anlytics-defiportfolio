@@ -1,54 +1,26 @@
-# React + TypeScript + Vite
+# Safra Forensic Dashboard
+ntroducing Safra Forensic Dashboard – Your Early-Warning System for Meme Token Trading
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The degen life moves fast : new meme tokens pop up, pumps and dumps happen in minutes, and one wrong move can wipe your bag. You need an edge. That’s where Safra Forensic Dashboard comes in.
 
-Currently, two official plugins are available:
+We built Safra to give traders like you real-time alerts, deep token analytics, and risk assessments. so you can spot the next big meme coin early, dodge scams, and manage your positions like a pro. No more blind trades, no more slow data. Just forensic-level insights to help you trade smarter in the wild west of DeFi.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Why Safra?
 
-## Expanding the ESLint configuration
+Early Alerts – Catch new meme tokens before they pump.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Rug-Pull Detection – Spot sketchy contracts before you ape in.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Bag Management – Track your positions and exit before the dump.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Real-Time Data – No lag, just the freshest on-chain intel.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Whether you’re a seasoned degen or just memeing around, Safra keeps you ahead of the game. Trade with confidence. Exit before the dump.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Ready to level up your meme trading? Try Safra Forensic Dashboard today.
+
+Stay sharp. Trade smarter. Don’t get rekt.
+
+#Integration With Civic 
+
+In SRC we have Properly used Civic Auth for our use auth who want to be safe 
