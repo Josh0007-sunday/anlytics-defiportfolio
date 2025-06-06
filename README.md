@@ -21,6 +21,13 @@ Ready to level up your meme trading? Try Safra Forensic Dashboard today.
 
 Stay sharp. Trade smarter. Don’t get rekt.
 
-#Integration With Civic 
+# Integration With Civic 
 
-In SRC we have Properly used Civic Auth for our use auth who want to be safe 
+In SRC
+```
+anlytics-defiportfolio/src/component/Login.tsx
+```
+we have Properly used Civic Auth for our use auth who want to be safe or choose to connect your chrome extension
+using adapter on solana
+
+
